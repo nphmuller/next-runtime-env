@@ -1,11 +1,11 @@
 /* istanbul ignore file */
 
-// This allows TypeScript to detect our global value.
-declare global {
-  interface Window {
-    __ENV: NodeJS.ProcessEnv;
-  }
-}
+// // This allows TypeScript to detect our global value.
+// declare global {
+//   interface Window {
+//     __ENV: NodeJS.ProcessEnv;
+//   }
+// }
 
-export { env } from './env';
-export { useEnvContext } from './use-env-context';
+export { env } from "./env";
+export { useEnvContext } from "./use-env-context";
