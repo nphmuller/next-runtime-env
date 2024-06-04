@@ -6,4 +6,3 @@ declare global {
 }
 export * from './provider';
 export * from './script';
-export { makeEnvPublic } from './utils/make-env-public';

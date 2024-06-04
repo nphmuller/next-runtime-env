@@ -6,4 +6,4 @@
  * const { NODE_ENV, API_URL } = useEnvContext();
  * ```
  */
-export declare const useEnvContext: () => import("../typings/process-env").ProcessEnv;
+export declare const useEnvContext: () => never;
