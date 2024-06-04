@@ -4,5 +4,5 @@ declare global {
         __ENV: NodeJS.ProcessEnv;
     }
 }
-export * from './provider';
-export * from './script';
+export { env } from './env';
+export { useEnvContext } from './use-env-context';
