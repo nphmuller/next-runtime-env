@@ -1,3 +1,5 @@
+/// <reference types="react" />
+export declare const EnvContext: import("react").Context<null>;
 /**
  * Returns the environment variables from the context.
  *

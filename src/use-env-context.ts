@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import { useContext } from 'react';
+import { useContext, createContext } from "react";
 
-import { EnvContext } from './env-context';
+export const EnvContext = createContext(null);
 
 /**
  * Returns the environment variables from the context.
@@ -17,7 +17,7 @@ export const useEnvContext = () => {
 
   if (!context) {
     throw new Error(
-      'useEnvContext must be used within a EnvProvider or PublicEnvProvider',
+      "useEnvContext must be used within a EnvProvider or PublicEnvProvider"
     );
   }
 
